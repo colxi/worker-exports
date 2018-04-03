@@ -1,0 +1,17 @@
+{
+  "name": "worker-exports",
+  "description": "Perform async exports in your workers.",
+  "version": "0.0.2",
+  "keywords": [
+    "worker export",
+    "worker exports",
+    "worker function calls"
+  ],
+  "author": "colxi",
+  "license": "GPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colxi/worker-exports"
+  },
+  "dependencies": {}
+}

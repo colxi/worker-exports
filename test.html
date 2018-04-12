@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="worker-exports.js" type="text/javascript"></script>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+	let w;
+	(async function(){
+		w = await new WorkerExports('http://localhost:8080/worker-exports/test.js');
+	})()
+
+</script>
+</body>
+</html>

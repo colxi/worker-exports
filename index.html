@@ -9,7 +9,7 @@
 
 	let w;
 	(async function(){
-		w = await new WorkerExports('http://localhost:8080/worker-exports/test.js');
+		w = await new WorkerExports('test.js', undefined, true);
 	})()
 
 </script>

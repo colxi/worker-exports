@@ -1,7 +1,5 @@
 ## Worker Exports
 
-Warning : In development! Alpha version.
-
 A simple interface to reach parts of your code running inside workers. Get/Set values of the exported Objects, or call your exported functions. 
 
 ## Usage :

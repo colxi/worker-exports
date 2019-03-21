@@ -7,7 +7,7 @@ A simple interface to reach parts of your code running inside workers. Get/Set v
 A simple example, to import and interact with worker exports:
 ```javascript
 // create worker-exports instance
-workerExports = await new WorkerExports('http://ABSOLUTE/PATH/TO/worker.js');
+let workerExports = await new WorkerExports('http://ABSOLUTE/PATH/TO/worker.js');
 
 // get exports.myVar
 console.log( await workerExports.myVar );
